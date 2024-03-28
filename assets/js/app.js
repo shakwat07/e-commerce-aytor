@@ -220,7 +220,7 @@ $(function () {
 
   // Deals Timer JS Starts
 
-  $("#deals_timer").countdown("2024/03/20", function (event) {
+  $("#deals_timer").countdown("2025/03/20", function (event) {
     var $this = $(this).html(
       event.strftime(
         "" +
