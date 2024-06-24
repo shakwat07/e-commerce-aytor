@@ -884,7 +884,7 @@
     line-height: 26px;
     text-align: center;
   }
- #special_offer .link_button, .link_button2 { 
+ #special_offer .link_button { 
     margin-left: 50%;
     transform: translateX(-50%);
   }
