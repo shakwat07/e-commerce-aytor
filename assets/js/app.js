@@ -56,6 +56,19 @@ $(function () {
           arrows: false,
         },
       },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+        },
+      },{
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        },
+      },
     ],
   });
   // New Arrivals Slider Ends
@@ -70,6 +83,14 @@ $(function () {
     arrows: false,
     dots: true,
     dotsClass: "deals_slider_dots",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
   // Deals Section Slider Ends
@@ -89,6 +110,12 @@ $(function () {
         breakpoint: 1200,
         settings: {
           slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
         },
       },
     ],
@@ -114,6 +141,13 @@ $(function () {
           arrows: false,
         },
       },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+        },
+      },
     ],
   });
 
@@ -134,7 +168,13 @@ $(function () {
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 4, 
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
         },
       },
     ],
@@ -181,16 +221,16 @@ $(function () {
       "<button type='button' class='slick_prev'><i class='fa-solid fa-arrow-left' ></i></button>",
     nextArrow:
       "<button type='button' class='slick_next'><i class='fa-solid fa-arrow-right' ></i></button>",
-  
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3, 
-          },
+
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
         },
-      ],
-    });
+      },
+    ],
+  });
   // Shop Details Sub Slider Ends
 
   // Related Product Slider Starts
@@ -205,22 +245,22 @@ $(function () {
       "<button type='button' class='slick_prev'><i class='fa-solid fa-arrow-left' ></i></button>",
     nextArrow:
       "<button type='button' class='slick_next'><i class='fa-solid fa-arrow-right' ></i></button>",
-  
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3,
-            arrows:false, 
-          },
+
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          arrows: false,
         },
-      ],
-    });
+      },
+    ],
+  });
   // Related Product Slider Ends
 
   // Deals Timer JS Starts
 
-  $("#deals_timer").countdown("2024/03/20", function (event) {
+  $("#deals_timer").countdown("2025/03/20", function (event) {
     var $this = $(this).html(
       event.strftime(
         "" +

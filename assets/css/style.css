@@ -189,12 +189,13 @@ button.link_button2 {
   overflow: hidden;
 }
 .product_box .product_img {
-  position: relative;
-  overflow: hidden;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
 }
 .product_box .product_img .product_img_hover {
-  position: absolute;
-  inset: 0;
+  position: absolute; 
   object-fit: cover;
   object-position: center;
   z-index: 5;
@@ -419,8 +420,11 @@ button.link_button2 {
 
 .my_venobox .venobox_video a i {
   position: absolute;
-  top: 44%;
-  left: 46%;
+  /* top: 44%;
+  left: 46%; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   font-size: 24px;
   color: var(--first_primary_color);
   background: var(--common_color);
@@ -1119,6 +1123,11 @@ button.link_button2 {
 
 #latest_news .latest_news_slider .latest_news_slider_item .latest_news_img {
   position: relative;
+}
+#latest_news .latest_news_slider .latest_news_slider_item .latest_news_img img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 #latest_news
   .latest_news_slider

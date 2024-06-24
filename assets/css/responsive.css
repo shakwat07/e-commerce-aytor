@@ -253,6 +253,9 @@
     width: 100%;
     margin: 0 0 50px;
   }
+  #latest_news .latest_news_slider .latest_news_slider_item {
+    padding: 20px 15px;
+  }
   #footer #benefits {
     padding: 10px;
   }
@@ -505,16 +508,418 @@
 
 /* Medium Device(md) Starts */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  #deals_count #deals_timer {
+    width: 80%;
+    margin: auto;
+  }
+  .my_venobox {
+    padding: 0 0 50px;
+    margin-top: 60px;
+  }
+  .my_venobox .venobox_video {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    margin: 0 0 40px;
+  }
 }
 
 /* Medium Device(md) Ends */
 
 /* Small Device(sm) Starts */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  #main #hero {
+    margin: 0 0 !important;
+  }
+  #main #hero .hero_slider .hero_slider_item {
+    height: 400px;
+    padding: 5px 0;
+  }
+  #main #hero .hero_slider .hero_slider_item h1 {
+    font-size: 38px;
+    line-height: 36px;
+    padding: 8px 0;
+  }
+  #main #hero .hero_slider .hero_slider_item .link_button,
+  #main #hero .hero_slider .hero_slider_item .link_button2 {
+    margin: 20px 0;
+  }
+  .link_button2,
+  .link_button {
+    padding: 12px 30px;
+  }
+  #featured {
+    margin: 60px 0;
+  }
+  #featured .featured_item .overlay h5 a {
+    font-size: 24px;
+  }
+  #featured .featured_item {
+    margin: 10px 0;
+  }
+  .product_box .product_info {
+    padding: 6px;
+  }
+  #discount {
+    margin: 60px 0;
+    padding: 60px 0;
+  }
+  #best_seller {
+    margin-bottom: 60px;
+  }
+  .product_box .product_img .product_img_hover {
+    left: 50%;
+    transform: translateX(-50%) !important;
+  }
+  .product_box:hover .product_img .product_img_hover {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.1);
+  }
+  .section_title {
+    margin-bottom: 30px;
+  }
+  #deals_details .deals_slider {
+    padding: 60px 0px 20px;
+  }
+  #deals_details .deals_slider .deals_slider_item {
+    padding: 25px 28px;
+  }
+  #deals_details .deals_slider .deals_slider_item h2 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  #deals_details .deals_slider .deals_slider_item h4 {
+    font-size: 17px;
+  }
+  #deals_details .deals_slider .deals_slider_item h5 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #deals_details .deals_slider .deals_slider_item p {
+    margin-bottom: 16px;
+  }
+  #deals_count #deals_timer {
+    width: 80%;
+    margin: auto;
+    padding: 7px 60px;
+  }
+
+  .my_venobox {
+    padding: 0 0 50px;
+    margin-top: 60px;
+  }
+  .my_venobox .venobox_video {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    margin: 0 0 40px;
+  }
+  #latest_news {
+    margin: 60px 0;
+  }
+  #footer #benefits {
+    padding: 10px;
+  }
+  #footer #benefits .benefits_image {
+    padding: 20px 9px;
+    width: 60px;
+    height: 60px;
+  }
+  #footer #benefits .benefits_box::after {
+    width: 2px;
+    height: 90%;
+  }
 }
+/* #footer #benefits .benefits_wrapper:nth-child(even) .benefits_box::after {
+  width: 0;
+}
+#footer #benefits .benefits_cnt h4 {
+  font-size: 18px;
+  line-height: 26px;
+}
+#footer #benefits .benefits_cnt p {
+  line-height: 26px;
+  font-size: 14px;
+}
+#footer #benefits .benefits_box {
+  margin: 4px 0;
+}
+#footer {
+  margin-top: 120px;
+}
+#footer #widget_area {
+  padding: 20px 0;
+}
+#main_about .page_heading {
+  padding: 100px 0;
+}
+.page_heading h2 {
+  font-size: 38px;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+#learn_about {
+  margin-top: 50px;
+}
+#learn_about .about_background {
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0%, 100% 92%, 20% 92%, 0 80%);
+}
+.learn_about_image {
+  width: 94%;
+  margin: 0 auto;
+}
+#learn_about .learn_about_image::before {
+  height: 274px;
+  width: 244px;
+  border: 12px solid #bdbdbd;
+}
+#learn_about .learn_about_cnt {
+  padding: 10% 5%;
+}
+.section_title {
+  font-size: 32px;
+  line-height: 40px;
+}
+#learn_about .learn_about_cnt hr {
+  margin: 25px 0;
+}
+#learn_about .learn_about_cnt ul li:last-child {
+  margin-bottom: 25px;
+}
+.link_button2,
+.link_button {
+  padding: 10px 20px;
+}
+.link_button {
+  font-size: 18px;
+}
+#counter_section {
+  margin-top: 20px;
+}
+#counter_section .counter_divs > div {
+  padding: 10px;
+}
+#counter_section .counter_box h3 {
+  font-size: 34px;
+  line-height: 45px;
+  margin-top: 15px;
+}
+#counter_section .counter_box p {
+  line-height: 25px;
+}
+.my_venobox .venobox_video {
+  margin: 0 0 35px;
+}
+.my_venobox .venobox_details p {
+  margin-bottom: 25px;
+}
+.my_venobox {
+  padding: 0 0 30px;
+  margin-top: 50px;
+}
+#team {
+  margin: 50px 0;
+}
+#team .team_slider_content {
+  padding: 20px;
+}
+#team .team_slider_item {
+  margin: 24px 22px;
+}
+#team .team_slider_content p {
+  margin: 0px 0 5px;
+}
+#profile .profile_shape {
+  width: 130px;
+  height: 80px;
+} */
 /* Small Device(sm) Ends */
 
 /* Extra Small Device(xs) Starts */
 @media (max-width: 575.98px) {
+  .my_venobox {
+    padding: 0 0 50px;
+    margin-top: 60px;
+  }
+  .my_venobox .venobox_video {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    margin: 0 0 40px;
+  }
+  #primary_nav .secondary_nav_open_button {
+    padding: 0px 5px;
+    font-size: 25px;
+  }
+  #main #hero .hero_slider .hero_slider_item {
+    height: 150px;
+    padding: 10px 0;
+  }
+  #main #hero .hero_slider .hero_slider_item h1 {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0px 0;
+  }
+  #main #hero .hero_slider .hero_slider_item .link_button,
+  #hero .spa .link_button2 {
+    margin: 20px 0;
+  }
+  .link_button,
+  .link_button2 {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+  .link_button i,
+  .link_button2 i {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  #featured {
+    margin: 50px 0 30px;
+  }
+  #featured .featured_item {
+    margin: 0 0 20px;
+  }
+  #featured .featured_item:hover .overlay a {
+    font-size: 15px;
+  }
+  #featured .featured_item .overlay h5 a {
+    font-size: 22px !important;
+    line-height: 34px;
+  }
+  .section_title {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .tooltip .tooltip_cnt {
+    padding: 0px 0px;
+    width: 100px;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  .product_box .product_info {
+    padding: 10px;
+  }
+  #discount {
+    margin: 50px 0;
+    padding: 30px 0;
+  }
+  .section_title_2 {
+    font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+  }
+  #discount p {
+    line-height: 22px;
+    margin: 2px 0;
+    text-align: center;
+  }
+  #discount .link_button {
+    padding: 6px 12px;
+    margin: 20px 0 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  #best_seller {
+    margin-bottom: 50px;
+  }
+  #best_seller .link_button {
+    margin-top: 20px;
+  }
+  #deals_count #deals_timer {
+    height: 70px;
+  }
+  #deals_count #deals_timer {
+    padding: 0px 25px;
+    max-height: 75px;
+  }
+  #deals_details .deals_slider {
+    padding: 50px 2px 15px;
+  }
+  #deals_details .deals_slider .deals_slider_item {
+    padding: 20px 5px;
+  }
+  #deals_details .deals_slider .deals_slider_item h4 {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+  }
+  #deals_details .deals_slider .deals_slider_item h2 {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 25px 0;
+    text-align: center;
+  }
+  #deals_details .deals_slider .deals_slider_item p {
+    line-height: 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: center;
+  }
+  #deals_details .deals_slider .deals_slider_item h5,
+  #deals_details .deals_slider .deals_slider_item h5 del {
+    font-size: 16px;
+  }
+  #deals_details .deals_slider .deals_slider_item h5 {
+    text-align: center;
+  }
+  #deals_details .deals_slider .deals_slider_item .link_button2 {
+    margin: 15px 0 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .my_venobox {
+    margin-top: 50px;
+  }
+  .my_venobox .venobox_details h4 {
+    text-align: center;
+  }
+  .my_venobox .venobox_details p {
+    line-height: 26px;
+    text-align: center;
+  }
+  .link_button2,
+  .link_button {
+    padding: 6px 12px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .my_venobox .venobox_video {
+    height: 230px;
+  }
+  #latest_news .latest_news_slider .latest_news_slider_item {
+    margin: 20px 10px;
+  }
+  #footer #benefits {
+    padding: 20px;
+  }
+  #footer #benefits .benefits_image {
+    padding: 15px 5px;
+    width: 50px;
+    height: 50px;
+  }
+  #footer #benefits .benefits_cnt h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  #footer #benefits .benefits_cnt p {
+    line-height: 25px;
+    font-size: 14px;
+  }
+  #footer #benefits .benefits_box::after {
+    content: none;
+  }
+
+  #footer #social_links {
+    padding: 0 0 40px;
+    margin-top: -100px;
+  }
+  
+  #footer #widget_area {
+    padding: 40px 0;
+  }
 }
 /* Extra Small Device Ends */
