@@ -739,56 +739,28 @@
 
 /* Extra Small Device(xs) Starts */
 @media (max-width: 575.98px) {
-  .my_venobox {
-    padding: 0 0 50px;
-    margin-top: 60px;
-  }
-  .my_venobox .venobox_video {
-    position: relative;
-    height: 350px;
-    width: 100%;
-    margin: 0 0 40px;
-  }
-  #primary_nav .secondary_nav_open_button {
-    padding: 0px 5px;
-    font-size: 25px;
-  }
-  #main #hero .hero_slider .hero_slider_item {
-    height: 180px;
-    padding: 10px 0;
-  }
-  #main #hero .hero_slider .hero_slider_item h1 {
-    font-size: 25px;
-    line-height: 30px;
-    padding: 0px 0;
-  }
-  #main #hero .hero_slider .hero_slider_item .link_button,
-  #hero .spa .link_button2 {
-    margin: 20px 0;
-  }
   .link_button,
   .link_button2 {
     font-size: 14px;
-    padding: 6px 12px;
+    padding: 5px 10px;
   }
+
   .link_button i,
   .link_button2 i {
     margin-left: 5px;
     font-size: 12px;
   }
-  #featured {
-    margin: 50px 0 30px;
+  .my_venobox {
+    padding: 0 0 50px;
+    margin-top: 50px;
   }
-  #featured .featured_item {
-    margin: 0 0 20px;
+  .my_venobox .venobox_video {
+    position: relative;
+    height: 230px;
+    width: 100%;
+    margin: 0 0 40px;
   }
-  #featured .featured_item:hover .overlay a {
-    font-size: 15px;
-  }
-  #featured .featured_item .overlay h5 a {
-    font-size: 22px !important;
-    line-height: 34px;
-  }
+
   .section_title {
     font-size: 28px;
     line-height: 36px;
@@ -803,14 +775,48 @@
   .product_box .product_info {
     padding: 10px;
   }
-  #discount {
-    margin: 50px 0;
-    padding: 30px 0;
-  }
   .section_title_2 {
     font-size: 26px;
     line-height: 28px;
     text-align: center;
+  }
+  #primary_nav .secondary_nav_open_button {
+    padding: 0px 5px;
+    font-size: 28px;
+  }
+  #secondary_nav .offcanvas{
+    width: 100vw;
+  } 
+  #main #hero .hero_slider .hero_slider_item {
+    height: 200px;
+    padding: 10px 0;
+  }
+  #main #hero .hero_slider .hero_slider_item h1 {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0px 0;
+  }
+
+  /* #main #hero .hero_slider .hero_slider_item .link_button, #hero .spa .link_button2 {
+    margin: 20px 0 20px 50%;
+    transform: translateX(-50%);
+  } */
+  #featured {
+    margin: 50px 0 30px;
+  }
+  #featured .featured_item {
+    margin: 0 0 20px;
+  }
+  #featured .featured_item:hover .overlay a {
+    font-size: 15px;
+  }
+  #featured .featured_item .overlay h5 a {
+    font-size: 22px !important;
+    line-height: 34px;
+  }
+  #discount {
+    margin: 50px 0;
+    padding: 30px 0;
   }
   #discount p {
     line-height: 22px;
@@ -871,9 +877,6 @@
     margin-left: 50%;
     transform: translateX(-50%);
   }
-  .my_venobox {
-    margin-top: 50px;
-  }
   .my_venobox .venobox_details h4 {
     text-align: center;
   }
@@ -881,14 +884,9 @@
     line-height: 26px;
     text-align: center;
   }
-  .link_button2,
-  .link_button {
-    padding: 6px 12px;
+ #special_offer .link_button, .link_button2 { 
     margin-left: 50%;
     transform: translateX(-50%);
-  }
-  .my_venobox .venobox_video {
-    height: 230px;
   }
   #latest_news .latest_news_slider .latest_news_slider_item {
     margin: 20px 10px;
@@ -917,7 +915,7 @@
     padding: 0 0 40px;
     margin-top: -100px;
   }
-  
+
   #footer #widget_area {
     padding: 40px 0;
   }
