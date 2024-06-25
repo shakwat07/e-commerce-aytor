@@ -44,7 +44,7 @@
     margin: 25px 0 0;
   }
   #footer #benefits {
-    padding: 26px;
+    padding: 25px;
   }
   #footer #benefits .benefits_cnt h4 {
     font-size: 18px;
@@ -256,6 +256,7 @@
   #latest_news .latest_news_slider .latest_news_slider_item {
     padding: 20px 15px;
   }
+
   #footer #benefits {
     padding: 10px;
   }
@@ -784,9 +785,9 @@
     padding: 0px 5px;
     font-size: 28px;
   }
-  #secondary_nav .offcanvas{
+  #secondary_nav .offcanvas {
     width: 100vw;
-  } 
+  }
   #main #hero .hero_slider .hero_slider_item {
     height: 200px;
     padding: 10px 0;
@@ -796,11 +797,6 @@
     line-height: 30px;
     padding: 0px 0;
   }
-
-  /* #main #hero .hero_slider .hero_slider_item .link_button, #hero .spa .link_button2 {
-    margin: 20px 0 20px 50%;
-    transform: translateX(-50%);
-  } */
   #featured {
     margin: 50px 0 30px;
   }
@@ -884,7 +880,7 @@
     line-height: 26px;
     text-align: center;
   }
- #special_offer .link_button { 
+  #special_offer .link_button {
     margin-left: 50%;
     transform: translateX(-50%);
   }
@@ -904,7 +900,7 @@
     line-height: 25px;
   }
   #footer #benefits .benefits_cnt p {
-    line-height: 25px;
+    line-height: 24px;
     font-size: 14px;
   }
   #footer #benefits .benefits_box::after {
@@ -918,6 +914,180 @@
 
   #footer #widget_area {
     padding: 40px 0;
+  }
+
+  /*  */
+
+  #footer #widget_area form .link_button {
+    padding: 5px 10px;
+  }
+  #footer #social_links .social_links_list li a i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  #footer #widget_area h4 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #footer #widget_area ul li a,
+  #footer #widget_area ul li address,
+  #footer #widget_area p,
+  #footer #widget_area ul li .weeks {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  #footer #widget_area ul li .weeks {
+    width: 83px;
+  }
+
+  .page_heading {
+    padding: 40px 0;
+  }
+  .page_heading h2 {
+    font-size: 38px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  #learn_about {
+    margin-top: 50px;
+  }
+
+  #learn_about .about_background {
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 100% 100%, 0 100%);
+  }
+  .learn_about_image {
+    width: 94%;
+    margin: 0 auto;
+  }
+  #learn_about .learn_about_image::before {
+    height: 150px;
+    width: 130px;
+    border: 8px solid #bdbdbd;
+    bottom: 90px;
+    left: -40px;
+  }
+  #learn_about .learn_about_cnt {
+    padding: 10% 5%;
+  }
+  .section_title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  #learn_about .learn_about_cnt hr {
+    margin: 20px 0;
+  }
+  #learn_about .learn_about_cnt ul li:last-child {
+    margin-bottom: 20px;
+  }
+  #learn_about .container {
+    padding: 30px 0;
+  }
+  #learn_about .learn_about_cnt ul li i {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 10px;
+  }
+  #learn_about .learn_about_cnt p {
+    line-height: 24px;
+  }
+  #counter_section {
+    margin-top: 20px;
+  }
+  #counter_section .counter_divs > div {
+    padding: 10px;
+  }
+  #counter_section .counter_box h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 10px;
+  }
+  #counter_section .counter_box p {
+    line-height: 24px;
+  }
+
+  .my_venobox .venobox_video {
+    margin: 0 0 20px;
+  }
+  .my_venobox .venobox_details p {
+    margin-bottom: 18px;
+  }
+  .my_venobox {
+    padding: 0 0 30px;
+    margin-top: 50px;
+  }
+  #counter_section .counter_box .counter_img {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+  }
+  .counter_box img,
+  svg {
+    width: 40px;
+    height: 38px;
+  }
+  .my_venobox .venobox_details p {
+    text-align: justify;
+  }
+  #team {
+    margin: 50px 0;
+  }
+
+  #team .team_slider_content {
+    padding: 10px;
+  }
+  #team .team_slider_item {
+    margin: 15px 5px;
+  }
+  #team .team_slider_content p {
+    margin: 0px 0 5px;
+  }
+  #team .team_slider_image {
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  #profile .profile_shape {
+    width: 124px;
+    height: 70px;
+  }
+  #profile {
+    margin-bottom: 50px;
+  }
+  #instagram .instagram_slider_image {
+    margin: 25px 0px 35px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list_grid_toggle {
+    margin: 50px 0 30px 0;
+  }
+  .list_grid_toggle .toggle_dropdown {
+    margin: 10px 0;
+  }
+  #shop_list .shop_product_box {
+    padding: 15px;
+    margin: 0 0 20px 0;
+  }
+  /* .shop_product_box .shop_product_img {
+    margin: 0 0 15px 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  } */
+  #shop_list .shop_product_box .shop_product_img {
+    margin: 0 0 15px 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }#shop_list .shop_product_box h3 a { 
+    font-size: 26px; 
+    line-height: 26px; 
+  }#shop_list .shop_product_box .shop_product_rating {
+    margin-bottom: 15px;
   }
 }
 /* Extra Small Device Ends */

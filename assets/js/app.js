@@ -62,7 +62,8 @@ $(function () {
           slidesToShow: 2,
           arrows: false,
         },
-      },{
+      },
+      {
         breakpoint: 575,
         settings: {
           slidesToShow: 1,
@@ -148,6 +149,13 @@ $(function () {
           arrows: false,
         },
       },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        },
+      },
     ],
   });
 
@@ -175,6 +183,12 @@ $(function () {
         breakpoint: 992,
         settings: {
           slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
         },
       },
     ],
