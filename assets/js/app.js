@@ -268,6 +268,13 @@ $(function () {
           arrows: false,
         },
       },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        },
+      },
     ],
   });
   // Related Product Slider Ends

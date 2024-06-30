@@ -1074,20 +1074,200 @@
     padding: 15px;
     margin: 0 0 20px 0;
   }
-  /* .shop_product_box .shop_product_img {
-    margin: 0 0 15px 0;
-    margin-left: 50%;
-    transform: translateX(-50%);
-  } */
+  .shop_product_box .shop_product_img {
+    display: flex;
+    justify-content: center;
+  }
   #shop_list .shop_product_box .shop_product_img {
     margin: 0 0 15px 0;
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }#shop_list .shop_product_box h3 a { 
-    font-size: 26px; 
-    line-height: 26px; 
-  }#shop_list .shop_product_box .shop_product_rating {
+  }
+  #shop_list .shop_product_box h3 a {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  #shop_list .shop_product_box .shop_product_rating {
     margin-bottom: 15px;
+  }
+  #main_shop ul li.page_item_icon {
+    margin: 0 5px;
+  }
+  #main_shop ul li.page_item a.page-link {
+    padding: 2px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  #main_shop ul li.page-item a.page-link {
+    font-size: 16px;
+    padding: 0px 8px;
+  }
+  #product_details {
+    margin-top: 50px;
+  }
+  #product_details .details_main_slider_item {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+  }
+  #product_details .details_sub_slider_item {
+    margin: 28px 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #product_details .rating p:nth-child(2) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #product_details .rating p:nth-child(2)::after {
+    content: none;
+  }
+  #product_details .rating p:nth-child(3) {
+    margin-left: 0px;
+  }
+  #product_details .description {
+    margin: 10px 0;
+  }
+  #product_details h5 del {
+    margin-left: 10px;
+  }
+  #product_details .size_color {
+    margin-top: 20px;
+  }
+  #product_details .quantity {
+    margin: 20px 0;
+  }
+  #product_details .cart_box {
+    width: 80px;
+    height: 35px;
+  }
+  #product_details .cart_box button {
+    width: 35px;
+    height: 35px;
+    padding: 2px 5px;
+  }
+  #product_details.shop_product_box .shop_product_action_btn ul li {
+    margin-right: 0;
+  }
+  #product_details .link_button {
+    margin: 0 5px;
+  }
+  #product_details .link_button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  #product_details.shop_product_box .shop_product_action_btn ul li:last-child {
+    margin-top: 5px;
+  }
+  #more_details_nav {
+    margin-top: 30px;
+    width: 100vw;
+    overflow: hidden;
+  }
+  #more_details_nav button {
+    padding: 5px 8px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #more_details_section #product_description p {
+    margin-bottom: 25px;
+  }
+  .related_product {
+    margin-top: 50px !important;
+  }
+  #more_details_section #additional_info table tr td {
+    padding: 10px;
+  }
+
+  #customer_review .customer_image {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  #customer_review .customer_review_box {
+    margin-top: 50px;
+  }
+  .customer_review_box .customer_comment {
+    width: 90%;
+  }
+  #customer_review .customer_name h3 {
+    font-size: 24px;
+    line-height: 26px;
+    margin: 8px 0;
+  }
+  #customer_review #contact_form .section_title {
+    margin-bottom: 15px;
+    font-size: 28px;
+  }
+  .rate {
+    height: 46px;
+    padding: 0 0px;
+  }
+  #contact_form .contact_form_details form .input {
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    line-height: 26px;
+  }
+  #customer_review .check_box label {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+  }
+  #main_contact #contact_boxes {
+    margin: 50px 0;
+  }
+  #main_contact #contact_boxes .contact_box {
+    padding: 20px 10px;
+    margin-bottom: 15px;
+  }
+  #main_contact #contact_boxes .contact_box i {
+    margin-right: 15px;
+    font-size: 25px;
+  }
+  #main_contact #contact_boxes .contact_box .contact_box_details h4 {
+    line-height: 26px;
+  }
+  #main_contact #contact_boxes .contact_box .contact_box_details p {
+    padding: 10px 0;
+  }
+  #contact_form .contact_form_details {
+    padding: 20px 0;
+  }
+  #wishlist {
+    margin-top: 50px;
+  }
+
+  #wishlist table thead tr th {
+    padding: 5px 1px;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+  }
+  #wishlist table tbody tr td {
+    padding: 5px 1px;
+    text-align: center !important;
+  }
+  #wishlist table tbody tr .product_details .product_name a,
+  #wishlist table tbody tr p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-left: 0px;
+  }
+  #wishlist .product_image {
+    width: 60px !important;
+    height: 60px !important;
+    margin-right: 2px;
+  }
+  #wishlist .product_stock {
+    display: none;
+  }
+  #wishlist .link_button {
+    padding: 5px 5px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  #wishlist .product_remove i{
+    font-size: 14px;
   }
 }
 /* Extra Small Device Ends */
