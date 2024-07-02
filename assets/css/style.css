@@ -2240,7 +2240,7 @@ button.link_button2 {
   height: 90px;
   padding: 12px;
   margin: 40px 20px;
-  
+
   display: flex;
   justify-content: center;
 }
@@ -3371,7 +3371,6 @@ button.link_button2 {
   margin: 0;
 }
 #main_404 .image {
-  margin-left: 120px;
   overflow: hidden;
 }
 #main_404 .image img {
